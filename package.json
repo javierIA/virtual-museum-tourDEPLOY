@@ -6,7 +6,7 @@
   },
   "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
   "scripts": {
-    "build": "webpack --config ./bundler/webpack.prod.js",
+    "build": "webpack --config ./bundler/webpack.prod.js --output public",
     "dev": "webpack serve --config ./bundler/webpack.dev.js"
   },
   "dependencies": {
